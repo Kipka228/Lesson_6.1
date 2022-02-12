@@ -1,0 +1,139 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css?family=Quintessential:regular&display=swap');
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Regular.woff2") format("woff2"), url("../fonts/MechePro-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Medium.woff2") format("woff2"), url("../fonts/MechePro-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Bold.woff2") format("woff2"), url("../fonts/MechePro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: 'MechePro';
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 840px;
+	margin: 0 auto;
+}
+
+.header{
+	text-align: center;
+}
+
+.point{
+	display: inline-block;
+	margin-right: 15px;
+	border-bottom: 2px dashed cornflowerblue;
+	color:cadetblue;
+	font-size: 20px;
+}
+
+.title{
+	color: crimson;
+	font-size: 40px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-family: 'Quintessential';
+}
+
+.flower{
+	max-width: 470px;
+	max-height: 150px;
+	overflow: auto;
+	outline: 2px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.flower-title{
+	font-size: 20px;
+	color: slateblue;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.flower-text{
+	color: darkolivegreen;
+}
+
+.flower-mark{
+	text-decoration: line-through;
+}
+
+.flower-image{
+	height: 170px;
+	width: 100px;
+	margin-top: 5px;
+	margin-left: 80px;
+	visibility: inherit;
+}
+
+.shaving{
+	margin-top: 40px;
+	border-top: 10px solid #000;
+	border-right: 10px dashed coral;
+	border-bottom: 10px double green;
+	border-left: 10px dotted gray;
+	padding: 15px;
+	box-shadow: 5px 10px 30px 1px black;
+}
+
+.shaving-title{
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: indianred;
+	border-bottom: 1px solid #000;
+	display: inline-block;
+}
+
+.cologne{
+	margin-top: 40px;
+	text-transform: uppercase;
+	border-radius: 80px;
+	border: 1px solid #000;
+	overflow: hidden;
+	padding: 25px;
+}
+
+.cologne-title{
+	font-size: 20px;
+	margin-bottom: 15px;
+	color: brown;
+}
+
+.cologne-text{
+	color:darkslateblue;
+}
+
+.footer img {
+	height: 500px;
+	width: 840px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border: 3px solid green;
+	border-radius: 50%;
+}
+
